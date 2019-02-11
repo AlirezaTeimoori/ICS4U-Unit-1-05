@@ -26,17 +26,19 @@ public class DiceGame {
         
         // Generates the random number between the range:
         int randNum = random.nextInt(range);
-        System.out.println(randNum);
+        ////System.out.println(randNum);
 
         // Asking for guess and storing data:
         System.out.println("OK, there is a random number generated between 1 to the number you enterd. \nCan you guess the number?");
         do {
-            guess = input.nextInt();
-            count = count + 1;
-            if (guess == randNum) {
-                System.out.println("That's right! You guessed after " + count + " tries!");
-            }
-        } while (guess != randNum);
+            guess = input.nextInt(); // Gets a new guess from the user
+
+            count = count + 1; // Adds one to count
+            
+            if (guess == randNum) { // Prints "That's right" if the numbers matched
+                System.out.println("That's right! You guessed after " + count + " try(s)!");
+            } else {System.out.println("Wrong! Try again... you can do it...");}
+        } while (guess != randNum); // Goes over the do loop if the numbers don't match
         
 
 
