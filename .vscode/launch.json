@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DiceGame",
+            "request": "launch",
+            "mainClass": "DiceGame"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - work",
+            "request": "launch",
+            "mainClass": "work"
+        }
+    ]
+}
