@@ -26,7 +26,7 @@ public class DiceGame {
         
         // Generates the random number between the range:
         int randNum = random.nextInt(range);
-        ////System.out.println(randNum);
+        ////System.out.println("FOR SCREENSHOTS: random is: " + randNum);
 
         // Asking for guess and storing data:
         System.out.println("OK, there is a random number generated between 1 to the number you enterd. \nCan you guess the number?");
